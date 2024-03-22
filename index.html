@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Welcome to Game Haven! Explore our collection of discounted and latest games. Discover top-rated games, read reviews, and stay updated with the latest gaming news. Join our vibrant gaming community today!"/>
+    <meta name="keywords" content="game haven, discounted games, latest games, top-rated games, game reviews, gaming news, vibrant gaming community"/>
+    <meta author="Vukasin Antic"/>
+    <title>Game Haven</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <!-- NAV -->
+
+        <nav class="navbar navbar-expand-lg p-1 m-auto fixed-top">
+            <div class="container-fluid fs-4">
+                <a class="navbar-brand px-5 fs-4 text-uppercase" href="#">Game Haven</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end px-5" id="navbarNavDropdown">
+                    <ul class="navbar-nav fw-normal">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-me.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Games
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="shop.html#action">Action | Adventure</a></li>
+                                <li><a class="dropdown-item" href="shop.html#shooter">Shooter | Multiplayer</a></li>
+                                <li><a class="dropdown-item" href="shop.html#other">Other</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- CAROUSEL -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+            <div class="carousel-inner">
+                <div class="carousel-item active img1">
+                    <div class="container main-games">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 align-self-center pb-2">
+                                    <div class="caption header-text  p-4">
+                                        <h2 >Welcome to Game Haven</h2>
+                                        <h3>Today's offer: <span class="fw-bold text-uppercase rdr2">Red Dead Redemption 2</span></h3>
+                                        <p class="fs-5"><span class="fs-3">Red Dead Redemption 2</span> stands as a gaming masterpiece, blending an immersive open world with a compelling 
+                                            narrative. Its rich storytelling, intricate character development, stunning visuals, and attention to detail elevate it, 
+                                            offering players an unparalleled and unforgettable Wild West experience.
+                                        </p>
+                                    </div>
+                            </div>
+                            <div class="col-lg-4 offset-lg-1 col-11 pt-2">
+                                <div class="header-img rdr2-img">
+                                    <img class="img-fluid" src="img/rdr2-logo-cover.jpg" alt="rdr2"/>
+                                    <span class="offer bg-red">67&#37;</span>
+                                    <span class="price bg-primary">19.79&#8364;</span>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item img2">
+                    <div class="container main-games">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 align-self-center pb-2">
+                                <div class="caption header-text p-4">
+                                    <h2 >Welcome to Game Haven</h2>
+                                    <h3>Today's offer: <span class="fw-bold text-uppercase er">Elden Ring</span></h3>
+                                    <p class="fs-5"><span class="fs-3">Elden Ring</span>, a collaborative masterpiece between 
+                                        Hidetaka Miyazaki and George R.R. Martin, unfolds a dark and mysterious fantasy world. Renowned for its challenging 
+                                        gameplay, intricate lore, and breathtaking landscapes, Elden Ring captivates players with its unparalleled depth 
+                                        and innovation in the action RPG genre.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-11 offset-lg-1 pt-2">
+                                <div class="header-img">
+                                    <img class="img-fluid" src="img/elden-ring-logo.jpg" alt="elden-ring"/>                                 
+                                    <span class="offer bg-red">50&#37;</span>
+                                    <span class="price bg-primary">29.99&#8364;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item img3">
+                    <div class="container main-games">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 align-self-center pb-2">
+                                <div class="caption header-text  p-4">
+                                    <h2 >Welcome to Game Haven</h2>
+                                    <h3>Today's offer: <span class="fw-bold text-uppercase aw">Assassin's Creed Valhalla</span></h3>
+                                    <p class="fs-5"><span class="fs-3">Assassin's Creed Valhalla</span> offers a Viking odyssey, seamlessly blending history with 
+                                        mythic elements. With stunning visuals, robust storytelling, and vast open-world exploration, Valhalla delivers an 
+                                        immersive experience, combining stealth, combat, and strategic choices for an epic adventure in Norse mythology.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-11 offset-lg-1 pt-2">
+                                <div class="header-img">
+                                    <img class="img-fluid" src="img/assasin-creed-valhala-logo.jpg" alt="assasin-creed-valhala"/>                                
+                                    <span class="offer bg-red">75&#37;</span>
+                                    <span class="price bg-primary">14.99&#8364;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+    </header>
+
+    <!-- SERVICES SECTION -->
+
+    <section id="services">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card service-box">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Game Sale</h5>
+                            <i class="fas fa-tags fa-3x text-danger p-1"></i>
+                            <p class="card-text pt-3">Explore our discounted game collection!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card service-box">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">New Releases</h5>                          
+                            <i class="fas fa-gamepad fa-3x text-success p-1"></i>
+                            <p class="card-text pt-3">Discover the latest and greatest games.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card service-box">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Featured Games</h5>
+                            <i class="fas fa-star fa-3x text-warning p-1"></i>
+                            <p class="card-text pt-3">Explore our handpicked selection of top-rated games.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card service-box">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Game Reviews</h5>
+                            <i class="fas fa-comment fa-3x text-primary p-1"></i>
+                            <p class="card-text pt-3">Read in-depth reviews and recommendations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- TRENDING GAMES SECTION -->
+
+
+   <section id="trending" class="my-5 mx-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-md-6">
+                    <h4 class="text-red">Trending</h4>
+                    <h2 class="text-primary pt-3">Trending Games</h2>
+                </div>
+                <div class="col-4 col-md-6 d-flex justify-content-end align-self-center">
+                    <a class="btn btn-primary" href="shop.html#shop">View All</a>
+                </div>
+            </div>
+            <div class="row mt-3 ">
+                <div class="col-lg-3 col-md-6 p-3 mt-2">
+                    <div class="card">
+                        <img src="img/assassins-creed-mirage-logo.jpg" alt="assassins-creed-mirage" class="img-fluid"/>
+                        <div class="card-body trending-box">
+                            <div class="text-center">
+                                <p class="m-0">Assassin's Creed Mirage</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="trending-price">
+                                    <span class="sale bg-red text-white">49.99&#8364;</span>
+                                </div>
+                                
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                                    See more
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="proizvodModal">Assassin's Creed Mirage</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.youtube.com/embed/IRNOoOYVn80?si=-CZxb922_IcX1feM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <h2 class="text-center p-2">ABOUT THE GAME</h2>
+                                        <p>In Assassin's Creed Mirage, you are Basim, a cunning street thief with nightmarish visions seeking answers and justice.</p>
+                                        <p>Join an ancient organisation and come to understand a new creed - one that will change Basim's fate in ways he never could have imagined.</p>
+                                        <a href="shop.html#contact" class="text-secondary">Purchase Now</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3 mt-2">
+                    <div class="card">
+                        <img src="img/cs2.jpg" alt="cs2" class="img-fluid"/>
+                        <div class="card-body trending-box">
+                            <div class="text-center">
+                                <p class="m-0">Counter-Strike 2</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="trending-price">
+                                    <span class="sale bg-red text-white">FREE</span>
+                                </div>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+                                    See more
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="proizvodModal">Counter-Strike 2</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.youtube.com/embed/c80dVYcL69E?si=TXgn0g_fB-Hp3EW2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <h2 class="text-center p-2">THE NEXT ERA OF COUNTER-STRIKE IS HERE!</h2>
+                                        <p>Counter-Strike 2 is the largest technical leap forward in Counter-Strike's history, ensuring new features and updates for years to come.</p>
+                                        <p>Counter-Strike 2 is a free upgrade to CS:GO. So build your loadout, hone your skills, and prepare yourself for what's next!</p>
+                                        <a href="shop.html#contact" class="text-secondary">Purchase Now</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3 mt-2">
+                    <div class="card">
+                        <img src="img/Call-of-Duty-Modern-Warfare.jpg" alt="Call-of-Duty-Modern-Warfare" class="img-fluid"/>
+                        <div class="card-body trending-box">
+                            <div class="text-center">
+                                <p class="m-0">Call of Duty: Modern Warfare III</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="trending-price">
+                                    <span class="sale bg-red text-white">45.49&#8364;</span>
+                                </div>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+                                    See more
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="proizvodModal">Call of Duty: Modern Warfare III</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.youtube.com/embed/mHDEDDrGYvo?si=8VRNw7y9xwSRwsem" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <h2 class="text-center p-2">THE WAR HAS CHANGED</h2>
+                                        <p>In the direct sequel to the record-breaking Call of Duty: Modern Warfare II, Captain Price and Task Force 141 face off against 
+                                            the ultimate threat. The ultranationalist war criminal Vladimir Makarov is extending his grasp across the world causing 
+                                            Task Force 141 to fight like never before.
+                                        </p>
+                                        <a href="shop.html#contact" class="text-secondary">Purchase Now</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3 mt-2">
+                    <div class="card">
+                        <img src="img/Ghost-of-Tsushima-logo.jpg" alt="Ghost-of-Tsushima" class="img-fluid"/>
+                        <div class="card-body trending-box">
+                            <div class="text-center">
+                                <p class="m-0">Ghost of Tsushima</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="trending-price">
+                                    <span class="sale bg-red text-white">59.99&#8364;</span>
+                                </div>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+                                    See more
+                                </button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="proizvodModal">Ghost of Tsushima Director's Cut</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.youtube.com/embed/EzWBNwhb870?si=gyKVM9OsFgjaTnQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <h2 class="text-center p-2">ABOUT THE GAME</h2>
+                                        <p>A storm is coming. Venture into the complete Ghost of Tsushima DIRECTOR'S CUT on PC; forge your own path through 
+                                            this open-world action adventure and uncover its hidden wonders. Brought to you by Sucker Punch Productions, 
+                                            Nixxes Software and PlayStation Studios.
+                                        </p>
+                                        <a href="shop.html#contact" class="text-secondary">Purchase Now</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+
+   </section>
+
+    <!-- LATEST GAMES SECTION -->
+
+   <section id="latest-games">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mx-auto text-center naslov mt-5">
+                    <h1>Latest games, news and updates</h1>
+                </div>
+
+                        <!-- ARK 2 -->
+
+                <div class="col-12 mx-auto text-center mt-3">
+                    <h2>ARK: Survival Evolved 2</h2>
+                </div>
+                <div class="col-lg-6 latest-games-content mt-3">
+                    <img src="img/ARK2.jpg" alt="ark2" class="img-fluid"/>
+                    <div class="m-2 pt-2">
+                        <p class="text-secondary">Image: Studio Wildcard</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mx-auto my-3 latest-games-desc align-self-center">
+                    <p class="fs-4 m-0"><span class="fw-bold">Release date:</span><span class="text-red"> Expected by</span> end of 2024</p>
+                    <p class="fs-4"><span class="fw-bold">Platforms</span><span class="text-primary"> Windows PC</span> and <span class="text-success">Xbox Series X</span></p>
+                    <p>Survival game <span class="fst-italic">Ark 2</span> will expand Studio Wildcard's Ark universe, which introduced players to a 
+                        desert island packed with dinosaurs in 2015, during its 2024 early access period. Fans found 2023's glitchy remaster 
+                        Ark: Survival Ascended disappointing, so they're hoping Ark 2 lives up to expectations.
+                    </p>
+                </div>
+            </div>
+
+
+                    <!-- Lol igrica  -->
+            <div class="row flex-row-reverse">
+                <div class="col-12 mx-auto text-center mt-3">
+                    <h2>BANDLE TALE: A LEAGUE OF LEGENDS STORY</h2>
+                </div>
+                <div class="col-lg-6 latest-games-content mt-3">
+                    <img src="img/Bandle-Tale.jpg" alt="ark2" class="img-fluid"/>
+                    <div class="m-2 pt-2">
+                        <p class="text-secondary">Image: Riot Games</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mx-auto my-3 latest-games-desc align-self-center ">
+                    <p class="fs-4 m-0 fw-bold">Release date: TBD</p>
+                    <p class="fs-4"><span class="fw-bold">Platforms</span> <span class="text-primary">Windows PC</span> and <span class="text-red">Nintendo Switch</span></p>
+                    <p><span class="fst-italic">League of Legends</span> will be glad to know that the mystical knotted woods of Bandle City are 
+                        getting their very own cozy spinoff game. The richly colored role-playing game features characters, huts, and trees as pudgy 
+                        and delectable-looking as chocolate in a fancy box, and it'll appropriately feature “farm-to-table” cooking, its game 
+                        description says.
+                    </p>
+                </div>
+            </div>
+
+                        <!-- BLIGH Survival -->
+
+            <div class="row">
+                <div class="col-12 mx-auto text-center mt-3">
+                    <h2>Blight Survival</h2>
+                </div>
+                <div class="col-lg-6 latest-games-content mt-3">
+                        <img src="img/blight-survival.jpg" alt="blight-survival" class="img-fluid"/>
+                        <div class="m-2 pt-2">
+                            <p class="text-secondary">Image: Haenir Studio</p>
+                        </div>
+                </div>
+                <div class="col-lg-6 mx-auto my-3 latest-games-desc align-self-center">
+                    <p class="fs-4 m-0"><span class="fw-bold">Release date:</span><span class="text-red"> Expected by</span> end of 2024</p>
+                    <p class="fs-4"><span class="fw-bold">Platforms</span> <span class="text-primary">Windows PC</span></p>
+                    <p><span class="fst-italic"></span>Blight: Survival offers</span> a thrilling 4-player co-op experience set in an alternate 14th century, where players must navigate 
+                        the unforgiving no man's land between two desperate states in a ceaseless war. Fight alongside up to three friends, battling 
+                        both men and monsters in a violent co-op action-horror roguelite that challenges your survival skills and teamwork.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+   </section>
+   
+    <!-- FOOTER -->
+
+   <footer class="mt-5">
+        <div class="container py-5"> 
+            <div class="row latest-games-content">
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <h2 class="text-center">About Us</h2>
+                    <p class="p-2">
+                        Welcome to Game Haven! Our mission is to provide gamers with unparalleled experiences. Join our vibrant community and immerse 
+                        yourself in a world of gaming excellence and endless possibilities!
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <h2 class="text-center">Contact Us</h2>
+                    <p class="p-2">
+                        Thank you for visiting Game Haven! If you have any questions, feedback, or suggestions, please don't hesitate to reach out to us. 
+                        We're here to assist you and improve your gaming experience in every way possible.
+                    </p>
+                </div>
+                <div class="col-md-8 col-lg-4 mx-auto pb-4 align-self-center">
+                    <h2 class="text-center">Newsletter</h2>
+                    <form action="#" method="get" class="mt-3">
+                        <div class="input-group">
+                          <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter your email">
+                          <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>                          
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center social-icon">
+                    <ul class="list-group list-group-horizontal justify-content-center">
+                        <li class="list-group-item fs-2"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-group-item fs-2"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-group-item fs-2"><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-group-item fs-2"><a href="sitemap.xml" target="_blank"><i class="fa fa-sitemap"></i></a></li>
+                        <li class="list-group-item fs-2"><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-cr">
+            <div class="row">
+                <div class="col-12 text-center p-3">
+                    <p class="m-0 fs-5">Copyright © 2024 Vukašin Antić 65/23. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

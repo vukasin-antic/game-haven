@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7 !important;
+    font-family: "Segoe UI", sans-serif !important;
+}
+.bg-red{
+    background-color: #e03f27 !important;
+}
+.text-red{
+    color: #FF2400 !important;
+}
+.sale{
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+.line::after{
+    content: "";
+    height: 2px;
+    background-color: #292828;
+    display: block;
+    margin: 10px auto;
+
+}
+/* HEADER */
+nav{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+ul li{
+    list-style: none !important;
+}
+ul li a{
+    color: #fff;
+}
+.carousel-item{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 225px 0px;
+}
+.img1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../img/rdr2.jpg);
+}
+.img2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/elden-ring.jpg);
+    background-position: left;
+}
+.img3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/assasin-creed-valhala.jpg);
+    background-position: center;
+}
+.img3 img{
+    filter: brightness(0.9);
+}
+.header-text{
+    color: #fff;
+}
+.text-box{
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50px 
+}
+.rdr2{
+    color: #f32929;
+}
+.rdr2-img img{
+    filter: grayscale(60%);
+}
+.er{
+    color: #C18C3A;
+}
+.aw{
+    color: #39C3AD;
+}
+.header-img{
+    position: relative;
+}
+.header-img img{
+    border-radius: 20px;
+}
+.offer{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2px 16px 3px 16px;
+}
+.price{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 2px 16px 3px 16px;
+}
+#services{
+    margin-top: -140px;
+}
+.service-box{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 25px !important;
+}
+#trending{
+    width: 80%;
+}
+.card{
+    border: none !important;
+    border-radius: 10px 10px 0px 0px;
+}
+.card img{
+    border-radius: 10px 10px 0px 0px;
+
+}
+.trending-box{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 10px 10px;
+}
+.naslov::after{
+    content: "";
+    height: 2px;
+    width: 5%;
+    background-color: #008af8;
+    display: block;
+    margin: 10px auto;
+}
+
+/* MODALI */
+.modal-body iframe{
+    width: 100%;
+    height: 400px;
+}
+
+/* SECTION latest-games */
+.latest-games-content::after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: rgb(163, 171, 178);
+    display: block;
+    margin: 0px auto;
+}
+.latest-games-content img{
+    border-radius: 30px;
+}
+.bg-b{
+    background-color: #292828 !important;
+
+}
+
+/* FOOTER */
+footer{
+    background-color: #292828;
+    color: #fff;
+}
+.social-icon ul li a{
+    color: #292828;
+}
+.footer-cr{
+    background-color: #008af8;
+}
+/* ABOUT US */
+.about-us{
+    background-image: linear-gradient(17deg, rgba(41, 41, 41, 0.02) 0%, rgba(41, 41, 41, 0.02) 48%,rgba(10, 10, 10, 0.02) 48%, rgba(10, 10, 10, 0.02) 59%,rgba(164, 164, 164, 0.02) 59%, rgba(164, 164, 164, 0.02) 73%,rgba(79, 79, 79, 0.02) 73%, rgba(79, 79, 79, 0.02) 93%,rgba(42, 42, 42, 0.02) 93%, rgba(42, 42, 42, 0.02) 100%),linear-gradient(42deg, rgba(124, 124, 124, 0.02) 0%, rgba(124, 124, 124, 0.02) 15%,rgba(116, 116, 116, 0.02) 15%, rgba(116, 116, 116, 0.02) 23%,rgba(41, 41, 41, 0.02) 23%, rgba(41, 41, 41, 0.02) 44%,rgba(196, 196, 196, 0.02) 44%, rgba(196, 196, 196, 0.02) 54%,rgba(145, 145, 145, 0.02) 54%, rgba(145, 145, 145, 0.02) 100%),linear-gradient(151deg, rgba(85, 85, 85, 0.02) 0%, rgba(85, 85, 85, 0.02) 12%,rgba(72, 72, 72, 0.02) 12%, rgba(72, 72, 72, 0.02) 28%,rgba(156, 156, 156, 0.02) 28%, rgba(156, 156, 156, 0.02) 33%,rgba(230, 230, 230, 0.02) 33%, rgba(230, 230, 230, 0.02) 50%,rgba(13, 13, 13, 0.02) 50%, rgba(13, 13, 13, 0.02) 100%),linear-gradient(76deg, rgba(25, 25, 25, 0.02) 0%, rgba(25, 25, 25, 0.02) 9%,rgba(183, 183, 183, 0.02) 9%, rgba(183, 183, 183, 0.02) 32%,rgba(19, 19, 19, 0.02) 32%, rgba(19, 19, 19, 0.02) 86%,rgba(129, 129, 129, 0.02) 86%, rgba(129, 129, 129, 0.02) 88%,rgba(174, 174, 174, 0.02) 88%, rgba(174, 174, 174, 0.02) 100%),linear-gradient(90deg, rgb(41, 41, 41),rgb(8, 8, 8));    position: relative;
+    height: 600px;
+    padding: 280px;
+}
+.author-img{
+    border-radius: 40% 20% 40% 20%;
+    box-shadow: 0px 0px 25px #292828;
+}
+.author .list-group-item{
+    border: none !important;
+    border-width: 0px !important;
+    background-color: transparent;
+}
+.author .list-group-item a{
+    color: #fff;
+    background-color: #292828;
+    padding: 10px 14.5px;
+    border-radius: 25%;
+    transition: 0.5s all;
+}
+.author .list-group-item a:hover{
+    color: #292828;
+    background-color: #f7f7f7;
+}
+/* SHOP HTML */
+.games-shop{
+    background-image: linear-gradient(161deg, rgba(218, 218, 218, 0.03) 0%, rgba(218, 218, 218, 0.03) 21%,rgba(145, 145, 145, 0.03) 21%, rgba(145, 145, 145, 0.03) 49%,rgba(34, 34, 34, 0.03) 49%, rgba(34, 34, 34, 0.03) 58%,rgba(64, 64, 64, 0.03) 58%, rgba(64, 64, 64, 0.03) 68%,rgba(151, 151, 151, 0.03) 68%, rgba(151, 151, 151, 0.03) 78%,rgba(96, 96, 96, 0.03) 78%, rgba(96, 96, 96, 0.03) 85%,rgba(181, 181, 181, 0.03) 85%, rgba(181, 181, 181, 0.03) 100%),linear-gradient(101deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 1%,rgba(233, 233, 233, 0.03) 1%, rgba(233, 233, 233, 0.03) 4%,rgba(139, 139, 139, 0.03) 4%, rgba(139, 139, 139, 0.03) 34%,rgba(177, 177, 177, 0.03) 34%, rgba(177, 177, 177, 0.03) 42%,rgba(130, 130, 130, 0.03) 42%, rgba(130, 130, 130, 0.03) 75%,rgba(38, 38, 38, 0.03) 75%, rgba(38, 38, 38, 0.03) 91%,rgba(216, 216, 216, 0.03) 91%, rgba(216, 216, 216, 0.03) 100%),linear-gradient(54deg, rgba(8, 8, 8, 0.03) 0%, rgba(8, 8, 8, 0.03) 25%,rgba(166, 166, 166, 0.03) 25%, rgba(166, 166, 166, 0.03) 39%,rgba(181, 181, 181, 0.03) 39%, rgba(181, 181, 181, 0.03) 41%,rgba(200, 200, 200, 0.03) 41%, rgba(200, 200, 200, 0.03) 74%,rgba(18, 18, 18, 0.03) 74%, rgba(18, 18, 18, 0.03) 83%,rgba(134, 134, 134, 0.03) 83%, rgba(134, 134, 134, 0.03) 86%,rgba(56, 56, 56, 0.03) 86%, rgba(56, 56, 56, 0.03) 100%),linear-gradient(264deg, rgba(209, 209, 209, 0.03) 0%, rgba(209, 209, 209, 0.03) 18%,rgba(31, 31, 31, 0.03) 18%, rgba(31, 31, 31, 0.03) 26%,rgba(77, 77, 77, 0.03) 26%, rgba(77, 77, 77, 0.03) 27%,rgba(3, 3, 3, 0.03) 27%, rgba(3, 3, 3, 0.03) 36%,rgba(125, 125, 125, 0.03) 36%, rgba(125, 125, 125, 0.03) 37%,rgba(233, 233, 233, 0.03) 37%, rgba(233, 233, 233, 0.03) 64%,rgba(118, 118, 118, 0.03) 64%, rgba(118, 118, 118, 0.03) 100%),linear-gradient(90deg, rgb(26, 26, 26),rgb(24, 24, 24));    width: 1920px;
+    height: 600px;
+    padding: 280px;
+}
+.shop-naslov h4, .shop-naslov a{
+    color: #fff;
+}
+.form-floating textarea{
+    height: 150px !important;
+    resize: none;
+}
+.btn-send{
+    background-color: #008af8 !important;
+    border: 1px solid #008af8 !important;
+    transition: .5s ease-in-out all !important;
+}
+.btn-send:hover{
+    background-color: #f7f7f7 !important;
+    color: #008af8 !important;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 768px){
+    .carousel-item {
+        padding-top: 140px;
+    }
+    #trending{
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 350px){
+    .author .list-group-item a{
+        padding: 5px 7px;
+    }
+}
