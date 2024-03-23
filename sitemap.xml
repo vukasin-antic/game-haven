@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 		<url>
-			<loc>https://vukasin-antic.github.io//index.html</loc>
+			<loc>https://vukasin-antic.github.io/game-haven/index.html</loc>
 			<lastmod>2024-24-03</lastmod>
 			<changefreq>daily</changefreq>
 			<priority>1</priority>
 		</url>
 		<url>
-			<loc>https://vukasin-antic.github.io//about-me.html</loc>
+			<loc>https://vukasin-antic.github.io/game-haven/about-me.html</loc>
 			<lastmod>2024-24-03</lastmod>
 			<changefreq>monthly</changefreq>
 			<priority>0.5</priority>
 		</url>
 		<url>
-			<loc>https://vukasin-antic.github.io//shop.html</loc>
+			<loc>https://vukasin-antic.github.io/game-haven/shop.html</loc>
 			<lastmod>2024-24-03</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.8</priority>
