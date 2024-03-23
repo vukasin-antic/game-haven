@@ -214,6 +214,11 @@ footer{
     background-color: #f7f7f7 !important;
     color: #008af8 !important;
 }
+.btn-question{
+    /* background-color: #292828 !important; */
+    color: #fff !important;
+    width: 100%;
+}
 /* RESPONSIVE */
 @media screen and (max-width: 768px){
     .carousel-item {
