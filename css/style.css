@@ -173,7 +173,7 @@ footer{
     padding: 280px;
 }
 .author-img{
-    border-radius: 40% 20% 40% 20%;
+    border-radius: 20%;
     box-shadow: 0px 0px 25px #292828;
 }
 .author .list-group-item{
@@ -233,4 +233,5 @@ footer{
     .author .list-group-item a{
         padding: 5px 7px;
     }
+
 }
